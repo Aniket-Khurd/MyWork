@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [xmlsuite]">
+  <test thread-count="5" name="xmltest(failed)">
+    <parameter name="Admin" value="admin123"/>
+    <classes>
+      <class name="com.pom.test.OrangeListnerTest">
+        <methods>
+          <include name="validLogin"/>
+          <include name="invalidLogin"/>
+          <include name="quitBrowser"/>
+          <include name="initialize"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.pom.test.OrangeListnerTest -->
+    </classes>
+  </test> <!-- xmltest(failed) -->
+</suite> <!-- Failed suite [xmlsuite] -->

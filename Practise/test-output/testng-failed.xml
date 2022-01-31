@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.extent.pages.ListenersExtent"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.extent.test.OrangeHRMTestEXTENT">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="logOut"/>
+          <include name="extentSetup"/>
+          <include name="initialize"/>
+          <include name="launchBrowser"/>
+          <include name="endReporter"/>
+          <include name="quitBrowser"/>
+          <include name="validLogin"/>
+        </methods>
+      </class> <!-- com.extent.test.OrangeHRMTestEXTENT -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
