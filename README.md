@@ -1,2 +1,2 @@
 # MyWork
-My Coding Practice...
+My Coding Practice
