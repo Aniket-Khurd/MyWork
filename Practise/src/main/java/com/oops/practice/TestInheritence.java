@@ -13,6 +13,7 @@ public class TestInheritence {
 		
 		Employee employee = new Employee(12000);
 		System.out.println(employee);
+		
 	}
 
 }
